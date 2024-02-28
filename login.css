@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+
+#grad{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgb(6, 161, 172);
+    margin-left: -26rem;
+    margin-top: -30rem;
+}
+
+#grad1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgb(227, 80, 6);
+    margin-left: 12rem;
+    margin-bottom: -30rem;
+}
+
+.container{
+      width: 21.875rem;
+      height:31.25rem;
+      background: rgba(255, 255, 255,0.13);
+      border-radius: 0.625rem;
+      backdrop-filter: blur(0.625rem);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      padding: 1.25rem;
+}
+
+.container h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 0.625rem;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.container button[type="submit"] {
+    width: 5rem;
+    padding: 0.5rem;
+    background: #ffffff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.container button[type="submit"]:hover {
+    background: #4caf50;
+    color: #ffffff;
+}
+
+.add-second{
+    color: white;
+    font-size:1.5rem;
+    margin-left: 10px;
+}
+
+.add-icon{
+    color: white;
+    font-size: 1.5rem;
+    display:flex;
+}
+
+.add-second1{
+    color: white;
+    font-size:1.5rem;
+    margin-left: 10px;
+}
+
+.add-icon1{
+    color: white;
+    font-size: 1.5rem;
+    display:flex;
+}
+.social{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen  and (max-width:786) {
+    .container{
+    width: 50%;
+}
+}
+
+
+@media screen  and (max-width:580px) {
+    #grad{
+        /* border:  10px solid red; */
+        width: 100px;
+        height: 100px;
+}
+#grad1{
+    width: 100px;
+    height: 100px;
+}
+}
